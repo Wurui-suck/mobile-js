@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#code{
+    overflow:auto;
+    height:28vh;
+    word-break: break-all;
+    position: relative;
+    z-index: 1;
+}
+#code::-webkit-scrollbar {
+    display: none;
+}
+#preview{
+    height: 400px;
+    width: 400px; 
+    position: absolute;
+  
+}
+
+#demo{
+    height: 72vh;
+}
+
+
+.eye {
+    position: absolute;
+    top: 50px
+}
+.eye.right {
+    position: absolute;
+    left: 50%;
+    margin-left: 90px;
+    overflow: hidden;
+}
+.eye.left {
+    position: absolute;
+    right: 50%;
+    margin-right: 90px;
+    overflow: hidden;
+}
+.iris-right1 {
+    position: absolute;
+    right: 10px;
+    transform: rotate(3deg);
+    z-index: 1;
+}
+
+.iris-left1 {
+    position: absolute;
+    left: 7px;
+    z-index: 1;
+}
+.iris-right2 {
+    position: absolute;
+    right: 4px;
+    bottom: -17px;
+}
+
+.iris-left2 {
+    position: absolute;
+    left: 11px;
+    bottom: -13px;
+}
+.iris-right3 {
+    position: absolute;
+    left: 9px;
+    top: 0px;
+    z-index: 2;
+}
+
+.iris-left3 {
+    position: absolute;
+    right: 42px;
+    top: -4px;
+    z-index: 2;
+}
+.iris-right4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 3px;
+    right: 18px;
+}
+
+.iris-left4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 6px;
+    right: 18px;
+}
+.iris-right5 {
+    position: absolute;
+    z-index: 2;
+    bottom: 8px;
+    right: 30px;
+}
+
+.iris-left5 {
+    position: absolute;
+    z-index: 2;
+    bottom: 8px;
+    right: 30px;
+}
+.nose-left {
+    left: 50%;
+    position: absolute;
+    bottom: 193px;
+}
+.nose-right {
+    right: 50%;
+    position: absolute;
+    bottom: 193px;
+}
+.brow-left {
+    position: absolute;
+    left: 80px;
+    top: 45px
+}
+
+.brow-right {
+    position: absolute;
+    right: 80px;
+    top: 45px
+}
+.mouse-top.left {
+    left: 20px;
+    position: absolute;
+    bottom: 175px;
+    overflow: hidden;
+}
+
+.mouse-top.right {
+    right: 20px;
+    position: absolute;
+    bottom: 175px;
+    overflow: hidden;
+}
+
+.mouse-bottom.left {
+    position: absolute;
+    bottom: 105px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.mouse-bottom.right {
+    position: absolute;
+    bottom: 105px;
+    right: 20px;
+    overflow: hidden;
+}
+.tr {
+    position: absolute;
+    left: -153px;
+    top: -62px;
+}
+
+.br {
+    position: absolute;
+    left: -153px;
+    top: -73px;
+}
+
+.sr {
+    position: absolute;
+    right: 44px;
+    bottom: 37px;
+}
+
+.sl {
+    position: absolute;
+    bottom: 29px;
+}
+.tf {
+    position: absolute;
+    left: 25px;
+    top: -62px;
+}
+
+.bf {
+    position: absolute;
+    left: 25px;
+    top: -73px;
+}
+#button{
+    position:fixed;
+    height:100px;
+    width:50px;
+    display:flex;
+    top:20px;
+    right:30px;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.speed{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
